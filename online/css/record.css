@@ -1,0 +1,26 @@
+.body{
+    padding:1px;
+}
+.record-table{
+    width:99.9vw;
+    margin-top:.21rem;
+    text-align: center;
+}
+.record-table tr{
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    height:.57rem;
+    line-height: .57rem;
+}
+.record-table tr th{
+    font-size:.21rem;
+    letter-spacing: 1px;
+    background: #f6f6f6;
+    padding:0 .65rem 0 .57rem;
+}
+.record-table tr td{
+    font-size:.21rem;
+    height: .9rem;
+    line-height: .9rem;
+    background: #fff;
+}

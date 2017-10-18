@@ -1,0 +1,117 @@
+.tender-title{
+    padding:1px;
+    clear: both;
+    height:4.96rem;
+    background: linear-gradient(to right, #ef8450 0%,#eb4929 100%);
+}
+.tender-top{
+    border-bottom:1px solid #feb195;
+    text-align: center;
+}
+.tender-top .one-row{
+    color:#fefefe;
+    margin:0.2rem 0;
+    letter-spacing: 1px;
+}
+.tender-top .two-row{
+    font-size:.54rem;
+    color:#fefefe;
+    margin: .15rem 0;
+}
+.tender-top .three-row{
+    font-size:.22rem;
+    color:#feb195;
+    margin-bottom:.3rem;
+}
+.tender-center{
+    padding:.3rem  0.24rem 0 0.24rem;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.tender-center .num{
+    color:#fefefe;
+    font-size: .26rem;
+    margin-bottom:.08rem;
+    letter-spacing: 1px;
+}
+.tender-center .two-row .num{
+    color:#fefefe;
+    font-size: .28rem;
+    margin-bottom:.08rem;
+}
+.tender-center label{
+    color: #feb195;
+    font-size: .23rem;
+}
+.tender-bottom{
+    color:#fff;
+    padding:.25rem 0 0 0 ;
+    text-align: center;
+}
+.tender-bottom .shengyu{
+    color:#fba587;
+}
+.tender-bottom .num{
+    color:#fef9f8;
+    display: inline-block;
+    background: #f39e85;
+    width:.39rem;
+    height: .42rem;
+    line-height: .42rem;
+    text-align: center;
+    font-size: .19rem;
+    margin: 0 .15rem;
+}
+.hr{
+    margin:0.34rem .37rem 0 .37rem;
+   
+    /* border:none; */
+    border-top:6px solid #f6aa9a;
+    border-radius: 3px;
+}
+.bar{
+    height:.6rem;
+    line-height: .6rem;
+    margin:0 .24rem 0 .24rem;
+    background: #fff;
+    text-align: center;
+    border-radius: 3px;
+   
+}
+.bar i{
+    font-size: .2rem;
+}
+.my{
+    clear: both;
+    padding:0 0 0 .24rem; 
+    background: #fff;
+    margin-top:.4rem;
+}
+.my>li{
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom:1px solid #e6e6e6;
+    color:#333333;
+}
+.my>li i{
+    float:right;
+    margin-right:.24rem;
+    color:#ccc;
+}
+.nowtender{
+    width:100vw;
+    border:none;
+    outline: none;
+    height: .9rem;
+    text-align: center;
+    line-height: .9rem;
+    border-radius: 3px;
+    font-size: .28rem;
+    position: absolute;
+    bottom:.97rem;
+    color:#fff;
+    background: #54a7f0;
+}

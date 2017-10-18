@@ -1,0 +1,132 @@
+*{
+    font-size:.28rem;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.body{
+    position: relative;
+}
+.welcome{
+    background: url("../img/bg.png") no-repeat;
+    background-size:100vw 4.18rem ;
+    height: 4.18rem;
+    width:100vw;
+}
+.welcome>p:first-child{
+    border-bottom:1px solid #69b2f2;
+    padding: .28rem 0 .28rem .24rem;
+}
+.welcome>p:nth-of-type(2){
+    text-align: center;
+    margin:.48rem 0 .33rem 0;
+}
+.welcome>p:nth-of-type(3){
+    text-align: center;
+    font-weight:900;
+    font-size:.42rem;
+    text-shadow: 2px 4px 3px #3794e5; 
+    margin-bottom:.36rem; 
+}
+.welcome>p:nth-of-type(3) b{
+    font-size: .25rem;
+}
+/*  */
+.list{
+    padding:0.2rem 0;
+    display: flex;
+    flex-flow:wrap row;
+    background: #fff;
+    margin:0 .24rem;
+    height:2.92rem;
+    box-shadow: 2px 2px 2px #ccc;
+    position: absolute;
+    top:2.91rem;
+}
+.list>div{
+    border-bottom:1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+}
+.list>div:nth-of-type(1){
+    padding:0 .08rem 0.18rem .45rem;
+}
+.list>div:nth-of-type(3){
+    padding:0 .08rem 0.18rem .45rem;
+    border-bottom:none;
+}
+.list>div:nth-of-type(2){
+    padding:0 0 0.18rem .4rem;
+    
+}
+.list>div:nth-of-type(4){
+    padding:0 0 0.18rem .4rem;
+    border-bottom:none;
+}
+.list img{
+    width:.44rem;
+    height: .38rem;
+    margin: .4rem 0 0 0; 
+}
+.list>div>p{
+    border-right:1px solid #e6e6e6;
+    padding:.1rem .5rem;
+}
+.list>div:nth-of-type(2)>p{
+    border-right:none;
+}
+.list>div:nth-of-type(4)>p{
+    border-right:none;
+}
+.list>div:nth-of-type(3) p{
+    margin-top:.1rem;
+}
+.list>div:nth-of-type(4) p{
+    margin-top:.1rem;
+}
+.list>div{
+    
+}
+.button{
+    clear: both;
+    padding:0 .24rem 0 .24rem;
+    margin-top:1.7rem;
+}
+
+.button button{
+    border:none;
+    outline: none;
+    width:3.32rem;
+    height: 1.06rem;
+    text-align: center;
+    line-height: 1.06rem;
+    border-radius: 3px;
+    margin-top:.2rem;
+    margin-bottom:.2rem;
+    color:#fff;
+}
+.button button:first-child{
+    background: #ff5a46;
+    float: left;
+}
+.button button:last-child{
+    background: #54a7f0;
+    float: right;
+}
+.my{
+    clear: both;
+    padding:0 0 0 .24rem; 
+    background: #fff;
+}
+.my>li{
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom:1px solid #e6e6e6;
+    color:#333333;
+}
+.my>li i{
+    float:right;
+    margin-right:.24rem;
+    color:#ccc;
+}
+

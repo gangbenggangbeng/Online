@@ -1,0 +1,87 @@
+*{
+    font-size:.5rem;
+}
+i{
+    font-style: normal;
+}
+
+.white{
+    color:white;
+}
+.back{
+    font-size: .3rem;
+}
+.back img{
+    width:.2rem;
+    height: .35rem;
+    vertical-align: bottom;
+}
+.title{
+    font-size: .33rem;
+}
+.ellipise img{
+    vertical-align: bottom;
+}
+.mainbody{
+    height:100vh;
+}
+.body{
+    height:93vh;
+    background: #f0f0f0;
+}
+.single h3{
+    font-size:.32rem;
+    padding:.28rem 0 .28rem .24rem;
+    font-weight: 500;
+}
+.message{
+    background: #fff;
+    width:100vw;
+}
+.message .real{
+    text-align: left;
+    margin:0 .24rem;
+    width:97vw;
+}
+.message .real tr td{
+    padding:.4rem 0 .3rem .3rem;
+}
+.message .real tr td:nth-of-type(2){
+    padding:.4rem 0 .3rem 0;
+}
+.left{
+    color:#333333;
+    font-size:.28rem;
+}
+.message {
+
+}
+.real tr:first-of-type{
+    border-bottom:1px solid #e6e6e6;
+}
+.center{
+    color:#989898;
+    font-size:.18rem;
+}
+.right{
+    text-align: right;
+    padding-right:.5rem;
+}
+.name{
+    font-size:.2rem;
+}
+.card{
+    font-size:.22rem;
+}
+.message .real tr td:last-of-type{
+    padding-right:.24rem;
+}
+.message .empty{
+    height: .3rem;
+    width:100vw;
+    background: #f0f0f0;
+}
+i{
+    color:#cbcbcb;
+    font-size:.32rem;
+}

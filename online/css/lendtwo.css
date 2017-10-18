@@ -1,0 +1,94 @@
+.wrap{
+    overflow-x: scroll;
+    margin-bottom:.2rem;
+}
+::-webkit-scrollbar{
+    color:transparent;
+    height:1px;
+}
+.nav{
+    width:110%;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    background: #fff;
+}
+.nav tr td{
+    height: 1.12rem;
+    line-height: 1.12rem;
+    padding:0 .38rem 0 .38rem;
+}
+.active{
+    color:#54a7f0;
+}
+.detail{
+    margin-bottom:.2rem;
+}
+.detail .detail-person{
+    border-top:1px solid #e6e6e6;
+    border-bottom:1px solid #e6e6e6;
+    height:.9rem;
+    line-height: .9rem;
+    color:#333333;
+    padding:0 0.24rem;
+    background: #fff;
+}
+.detail .detail-person i{
+    color:#666666;
+    float: right;
+}
+.detail .detail-ul{
+    background: #fff;
+    /* width:100vw; */
+    height:1.1rem;
+    padding:0 0.24rem;
+}
+.detail .detail-ul li{
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    margin-left:.4rem;
+    width:1.55rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+}
+.detail .detail-ul .first{
+    margin:0;
+}
+.detail .detail-ul .last{
+    margin-left:0;
+    text-align: right;
+}
+.detail .detail-ul .last i{
+    padding:3px;
+    border:1px solid #54a7f0;
+    font-size: .26rem;
+    border-radius: 3px;
+}
+.detail .detail-num{
+    clear: both;
+    background: #fff;
+    padding:0 0 0 0.24rem!important;
+    height:.76rem;
+    border-bottom:1px solid #e6e6e6;
+}
+.detail .detail-num li{
+    float: left;
+    font-size:.22rem;
+    text-align: center;
+    width:1.8rem;
+}
+.detail .detail-num .last{
+    float: right;
+}
+.detail .detail-num .last a{
+    width:1.65rem;
+    height: 0.51rem;
+    line-height: .51rem;
+    font-size:.26rem;
+    display: inline-block;
+    background: #54a7f0;
+    color:#fff;
+    border-radius: .23rem 0 0 .23rem;
+    float: right;
+}

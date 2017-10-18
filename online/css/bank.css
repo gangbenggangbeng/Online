@@ -1,0 +1,147 @@
+.body{
+    padding:1px;
+    font-size:.28rem;
+}
+.bank{
+    margin: .2rem 0 .2rem 0;
+    background: #fff;
+    border-top:1px solid #e6e6e6;
+    border-bottom:1px solid #e6e6e6;
+}
+.bank .bank-header{
+    margin:.2rem 0 .3rem 0;
+}
+.bank .bank-header h3 {
+    color:#333333;
+    font-size:.28rem;
+    display: inline-block;
+}
+.bank-farm{
+    color:#009c98;
+    font-size: .53rem;
+    margin: 0 .17rem 0 .34rem;
+    vertical-align:-.08rem;
+}
+.pay{
+    background: #fff;
+}
+.pay li{
+    border-bottom: 1px solid #e6e6e6;
+    padding:.2rem 0;
+    font-size:.26rem;
+    text-indent: .35rem;
+}
+.pay li:nth-of-type(2){
+    padding:.45rem 0 .45rem 0;
+}
+.pay li i{
+    font-size:.5rem;
+}
+.pay li input[type=text]{
+    border:none;
+    outline: none;
+}
+.pay li b{
+    font-weight: normal;
+    font-size:.23rem;
+    color:#55a7f1;
+}
+.pay li:first-child{
+    border-top:1px solid #e6e6e6;
+}
+.nowpay{
+    margin:.3rem .63rem;
+    padding:0.3rem 2.52rem .3rem 2.52rem;
+    background:#55a7f1;
+    outline: none;
+    border:none;
+    font-size:.28rem;
+    color:#fffffd;
+}
+.hint>p{
+    color:#56a6ef;
+    font-size:.28rem;
+    text-indent: .24rem;
+}
+.hint>p i{
+    margin-right:.1rem;
+}
+
+.text>p{
+    font-size:.26rem;
+    padding:0 .63rem;
+    margin-top:.10rem;
+    line-height: .46rem;
+    color:#989898;
+}
+.text>p:first-child{
+    margin-top:.24rem; 
+}
+.remain-sum>li>b{
+    font-size:.25rem;
+}
+.remain-sum>li>h4{
+    font-size:.26rem;
+    color:#989898;
+    font-weight:400;
+    margin-bottom:.35rem;
+}
+.remain-sum>li>p{
+    display: inline-block;
+    font-size: .28rem;
+    color:#333333;
+}
+.remain-sum>li>p>i{
+    color:#54a7f0;
+    font-size:.3rem;
+    margin-right:.2rem;
+}
+.remain-sum>li>p .unchecked{
+    color:#e6e6e6;
+}
+.remain-sum>li>p:nth-of-type(2){
+    margin-left:1.7rem;
+}
+.remain-sum>li:nth-of-type(2){
+    padding:.2rem 0;
+}
+.remain-sum>li:nth-of-type(3){
+    padding:.45rem 0 .45rem 0;
+}
+.remain-sum>li:nth-of-type(3) :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #000; 
+    font-size:0.52rem;
+}
+
+.remain-sum>li:nth-of-type(3) ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #000;
+    font-size:0.52rem;
+}
+
+.remain-sum>li:nth-of-type(3) input:-ms-input-placeholder{
+    color: #000;
+    font-size:0.52rem;
+}
+
+.remain-sum>li:nth-of-type(3) input::-webkit-input-placeholder{
+    color: #000;
+    font-size:0.52rem;
+}
+.remain-sum>li:nth-of-type(3) input[type=text]{
+    height:.6rem;
+    color:#000;
+    font-size:.50rem;
+}
+.remain-sum>li .icon-renminbi{
+    vertical-align: -.07rem;
+}
+.pay-text>p{
+    font-size:.26rem;
+    padding:0 .63rem;
+    /* margin-top:.2rem; */
+    line-height: .48rem;
+    color:#989898;
+}
+.pay-text>p:first-child{
+    margin-top:.2rem; 
+}
